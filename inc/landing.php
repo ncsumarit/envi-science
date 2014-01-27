@@ -7,7 +7,7 @@ $featured = new WP_Query(
 		'update_post_term_cache'	=> false,
 		'ignore_sticky_posts'		=> 1,
 		'posts_per_page'			=> ot_get_option('featured-posts-count'),
-		'cat'						=> 'landing'
+		'category_name'				=> 'landing'
 	)
 );
 ?>
