@@ -1,0 +1,67 @@
+/*
+ Theme Name:   Environmental Sciences Academic Program Theme
+ Description:  Child Theme of Hueman for the Environmental Sciences Academic Program
+ Author:       OIT Design, Jen Riehle
+ Author URI:   http://oitdesign.ncsu.edu/
+ Template:     hueman
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  hueman-child
+*/
+
+@import url("../hueman/style.css");
+
+/* ------------------------------------------------------------------------- *
+ *  Theme customization starts here
+/* ------------------------------------------------------------------------- */
+
+/* Global */
+
+#header {background-color:#eaeaea !important; padding-bottom: 0;}
+
+#header .container-inner .pad {background-image: url('http://localhost:8888/wp-dev/wp-content/uploads/2014/01/STS-95_Florida_From_Space-new.png'); height:200px;}
+
+#header .site-title a {margin-top:80px; color:#000;}
+
+#nav-header.nav-container.group {
+	top:-50px;
+	background-color:#96b478; 
+	border-bottom: solid 4px #667b4e;
+	-moz-border-radius-topright: 15px 20px;
+	border-top-right-radius: 15px 20px;
+	-moz-border-radius-topleft: 15px 20px;
+	border-top-left-radius: 15px 20px;
+	z-index: 1000;
+}
+
+#nav-header .nav li a {color:#fff !important; font-weight: bold; font-size:16px; }
+
+div.container {}
+.home .page-title h2 {display:none;}
+
+#footer-widgets {background-color: #cdd9c0;}
+
+
+/* Sidebar edits */
+
+.sidebar-content .textwidget .sidebar-top, .s1 .sidebar-top {color:#fff; background-color: #667b4e; font-weight:bold; font-size:18px; text-transform:uppercase;}
+
+/* Tablet - 800px, 768px & 720px */
+
+@media only screen and (min-width: 720px) and (max-width: 800px) {
+	.mystyle {}
+}
+
+
+/* Mobile - 480px & 320px */
+
+@media only screen and (max-width: 719px) {
+	.mystyle {}
+}
+
+
+/* Mobile - 320px */
+
+@media only screen and (max-width: 479px) {
+	.mystyle {}
+}
