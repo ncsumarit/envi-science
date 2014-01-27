@@ -21,7 +21,7 @@
 
 #header .container-inner .pad {background-image: url('http://localhost:8888/wp-dev/wp-content/uploads/2014/01/STS-95_Florida_From_Space-new.png'); height:200px;}
 
-#header .site-title a {margin-top:80px; color:#000;}
+#header .site-title a {margin-top:80px; color:#000; line-height: 33px;}
 
 #nav-header.nav-container.group {
 	top:-50px;
@@ -36,8 +36,8 @@
 
 #nav-header .nav li a {color:#fff !important; font-weight: bold; font-size:16px; }
 
-div.container {}
 .home .page-title h2 {display:none;}
+.container .page-title {font-size:26px; font-weight:bold; padding:26px 0px 9px 16px;}
 
 #footer-widgets {background-color: #cdd9c0;}
 
@@ -49,19 +49,19 @@ div.container {}
 /* Tablet - 800px, 768px & 720px */
 
 @media only screen and (min-width: 720px) and (max-width: 800px) {
-	.mystyle {}
+	#header .site-title a {margin-top:40px; line-height: 33px;}
 }
 
 
 /* Mobile - 480px & 320px */
 
 @media only screen and (max-width: 719px) {
-	.mystyle {}
+	#header .site-title a {margin-top:40px; line-height: 33px;}
 }
 
 
 /* Mobile - 320px */
 
 @media only screen and (max-width: 479px) {
-	.mystyle {}
+	#header .site-title a {margin-top:30px; line-height: 26px;}
 }
