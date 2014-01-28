@@ -6,7 +6,7 @@
  Author:       OIT Design, Jen Riehle
  Author URI:   http://oitdesign.ncsu.edu/
  Template:     hueman
- Version:      1.0.4
+ Version:      1.0.5
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  hueman-child
 */
@@ -19,7 +19,7 @@
 
 /* Global */
 
-#header {background-color:#eaeaea !important; padding-bottom: 0;}
+#header {padding-bottom: 0;}
 
 #header .container-inner .pad {background-image: url('http://localhost:8888/wp-dev/wp-content/uploads/2014/01/STS-95_Florida_From_Space-new.png'); height:200px;}
 
@@ -39,14 +39,24 @@
 #nav-header .nav li a {color:#fff !important; font-weight: bold; font-size:16px; }
 
 .home .page-title h2 {display:none;}
-.container .page-title {font-size:26px; font-weight:bold; padding:26px 0px 9px 16px;}
+.container .page-title {font-size:26px; font-weight:bold; padding:26px 8px 9px 16px;}
 
 #footer-widgets {background-color: #cdd9c0;}
+
+
+/* Slider */
+
+.post-inner {}
+.post-meta, .post-title, .entry.excerpt {display: none;}
 
 
 /* Sidebar edits */
 
 .sidebar-content .textwidget .sidebar-top, .s1 .sidebar-top {color:#fff; background-color: #667b4e; font-weight:bold; font-size:18px; text-transform:uppercase;}
+
+/* Footer */
+
+#footer {color:#383838;}
 
 /* Tablet - 800px, 768px & 720px */
 
