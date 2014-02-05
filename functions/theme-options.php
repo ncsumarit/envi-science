@@ -1055,6 +1055,10 @@ function custom_theme_options() {
 					'label' => 'Arial'
 				),
 				array( 
+					'value' => 'verdana',
+					'label' => 'Verdana'
+				),
+				array( 
 					'value' => 'georgia',
 					'label' => 'Georgia'
 				)

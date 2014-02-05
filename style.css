@@ -6,7 +6,7 @@
  Author:       OIT Design, Jen Riehle
  Author URI:   http://oitdesign.ncsu.edu/
  Template:     hueman
- Version:      1.0.5
+ Version:      1.0.6
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  hueman-child
 */
@@ -21,14 +21,14 @@
 
 #header {padding-bottom: 0;}
 
-#header .container-inner .pad {background-image: url('http://localhost:8888/wp-dev/wp-content/uploads/2014/01/STS-95_Florida_From_Space-new.png'); height:200px;}
+#header .container-inner .pad {background-image: url('http://envi.dasa.ncsu.edu/files/2014/01/STS-95_Florida_From_Space-new.png'); height:200px;}
 
 #header .site-title a {margin-top:80px; color:#000; line-height: 33px;}
 
 #nav-header.nav-container.group {
 	top:-50px;
 	background-color:#96b478; 
-	border-bottom: solid 4px #667b4e;
+	border-bottom: solid 8px #667b4e;
 	-moz-border-radius-topright: 15px 20px;
 	border-top-right-radius: 15px 20px;
 	-moz-border-radius-topleft: 15px 20px;
@@ -41,13 +41,19 @@
 .home .page-title h2 {display:none;}
 .container .page-title {font-size:26px; font-weight:bold; padding:26px 8px 9px 16px;}
 
+p {font-size:0.8em; color:#383838; line-height:1.38em;}
+
+
 #footer-widgets {background-color: #cdd9c0;}
 
 
 /* Slider */
 
 .post-inner {}
-.post-meta, .post-title, .entry.excerpt {display: none;}
+.float-content {position: absolute; top:0px; z-index: 100; background-color: rgba(255,255,255,0.75); padding:8px;}
+
+.post-comments {bottom:10px; top:inherit;}
+
 
 
 /* Sidebar edits */
