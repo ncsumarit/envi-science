@@ -6,7 +6,7 @@
  Author:       OIT Design, Jen Riehle
  Author URI:   http://oitdesign.ncsu.edu/
  Template:     hueman
- Version:      1.0.6
+ Version:      1.0.7
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  hueman-child
 */
@@ -41,8 +41,9 @@
 .home .page-title h2 {display:none;}
 .container .page-title {font-size:26px; font-weight:bold; padding:26px 8px 9px 16px;}
 
-p {font-size:0.8em; color:#383838; line-height:1.38em;}
-
+.content p, .sidebar p {font-size:0.8em; color:#383838; line-height:1.38em;}
+.content ul li {font-size: 0.8em; line-height:1.5em; color:#383838;}
+.content ul li li {line-height: 1.7em; color:#383838;}
 
 #footer-widgets {background-color: #cdd9c0;}
 
@@ -59,6 +60,7 @@ p {font-size:0.8em; color:#383838; line-height:1.38em;}
 /* Sidebar edits */
 
 .sidebar-content .textwidget .sidebar-top, .s1 .sidebar-top {color:#fff; background-color: #667b4e; font-weight:bold; font-size:18px; text-transform:uppercase;}
+.sidebar-top a {color:#fff;}
 
 /* Footer */
 
